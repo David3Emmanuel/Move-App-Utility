@@ -1,0 +1,25 @@
+{
+    "AppName": "Fusion360",
+    "ProcessesToKill": [
+        "Fusion360"
+    ],
+    "TargetBasePath": "E:\\Fusion360Data",
+    "FoldersToMove": [
+        {
+            "SourcePath": "C:\\Users\\USERNAME\\AppData\\Local\\Autodesk",
+            "TargetRelativePath": "Local\\Autodesk"
+        },
+        {
+            "SourcePath": "C:\\Users\\USERNAME\\AppData\\Local\\Fusion360",
+            "TargetRelativePath": "Local\\Fusion360"
+        },
+        {
+            "SourcePath": "C:\\Users\\USERNAME\\AppData\\Roaming\\Autodesk",
+            "TargetRelativePath": "Roaming\\Autodesk"
+        },
+        {
+            "SourcePath": "C:\\Users\\USERNAME\\AppData\\Roaming\\Fusion360",
+            "TargetRelativePath": "Roaming\\Fusion360"
+        }
+    ]
+}

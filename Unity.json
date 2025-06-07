@@ -1,0 +1,35 @@
+{
+    "AppName": "Unity",
+    "ProcessesToKill": [
+        "Unity",
+        "Unity Hub",
+        "UnityHub"
+    ],
+    "TargetBasePath": "E:\\UnityData",
+    "FoldersToMove": [
+        {
+            "SourcePath": "C:\\Program Files\\Unity Hub",
+            "TargetRelativePath": "Program Files\\Unity Hub"
+        },
+        {
+            "SourcePath": "C:\\Program Files\\Unity",
+            "TargetRelativePath": "Program Files\\Unity"
+        },
+        {
+            "SourcePath": "C:\\Users\\USERNAME\\AppData\\Local\\Unity",
+            "TargetRelativePath": "Local\\Unity"
+        },
+        {
+            "SourcePath": "C:\\Users\\USERNAME\\AppData\\Roaming\\Unity",
+            "TargetRelativePath": "Roaming\\Unity"
+        },
+        {
+            "SourcePath": "C:\\Users\\USERNAME\\AppData\\Local\\UnityHub",
+            "TargetRelativePath": "Local\\UnityHub"
+        },
+        {
+            "SourcePath": "C:\\Users\\USERNAME\\AppData\\Roaming\\UnityHub",
+            "TargetRelativePath": "Roaming\\UnityHub"
+        }
+    ]
+}
