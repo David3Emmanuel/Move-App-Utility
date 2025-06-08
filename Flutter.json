@@ -1,0 +1,32 @@
+{
+    "AppName": "Flutter",
+    "ProcessesToKill": [
+        "flutter",
+        "dart",
+        "android-studio",
+        "chrome"
+    ],
+    "TargetBasePath": "E:\\FlutterData",
+    "FoldersToMove": [
+        {
+            "SourcePath": "C:\\Users\\USERNAME\\AppData\\Local\\Pub\\Cache",
+            "TargetRelativePath": "PubCache"
+        },
+        {
+            "SourcePath": "C:\\Users\\USERNAME\\dev\\flutter",
+            "TargetRelativePath": "SDK"
+        },
+        {
+            "SourcePath": "C:\\Users\\USERNAME\\.gradle",
+            "TargetRelativePath": "Gradle"
+        },
+        {
+            "SourcePath": "C:\\Users\\USERNAME\\.android",
+            "TargetRelativePath": "Android"
+        },
+        {
+            "SourcePath": "C:\\Users\\USERNAME\\AppData\\Local\\Android",
+            "TargetRelativePath": "AndroidSDK"
+        }
+    ]
+}
